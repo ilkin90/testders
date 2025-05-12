@@ -1,8 +1,7 @@
 import React from "react";
 
 const Elaqe = () => {
-    return(
-        <div>Elaqe sefesi</div>
-    )
-}
+  return <div>Əlaqə səhifəsi</div>;
+};
+
 export default Elaqe;

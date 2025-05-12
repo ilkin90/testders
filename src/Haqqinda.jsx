@@ -1,8 +1,7 @@
 import React from "react";
 
 const Haqqinda = () => {
-    return(
-        <div>Haqqinda sefesi</div>
-    )
-}
+  return <div>Haqqinda səhifəsi</div>;
+};
+
 export default Haqqinda;
