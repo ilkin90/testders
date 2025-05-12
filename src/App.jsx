@@ -5,7 +5,7 @@ import IsNumuneleri from "./IsNumuneleri";
 
 function App() {
   return (
-    <Router>
+    <>
       <div className="Page">
         <Link to="/haqqinda">Haqqında</Link>
         <Link to="/isler">İş Nümunələri</Link>
@@ -17,7 +17,7 @@ function App() {
         <Route path="/isler" element={<IsNumuneleri />} />
         <Route path="/elaqe" element={<Elaqe />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
