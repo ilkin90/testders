@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: "/test-2",
+  // base: "/testders",
 })
